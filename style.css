@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(91, 153, 69);
+    color: white;
+}
+/* FOR THE PICTURES TO FLOAT ON PAGE ONCE THE ITEM IS SELECTED, IF NO SELECTION NO PICTURE */
+.hidden {
+    display: none;
+}
+#rock-paper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#paper {
+    height: 250px;
+    width: 250px;
+  
+}
+#rocks {
+    height: 250px;
+    width: 250px;
+}
+#scissors {
+    height: 250px;
+    width: 275px;
+}
+/* FOR TITLE AND SUB-TITLE ON PAGE WITH THE LIST OF OPTIONS TO CHOOSE*/
+#words {
+    text-align: center;
+}
+h2 {
+    font-size: 3em;
+    text-align: center;
+}
+#words li {
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+}
+/* Pictures for Computer choice */
+#rocksImg {
+    height: 250px;
+    width: 250px;
+}
+#paperImg {
+    height: 250px;
+    width: 250px;
+}
+#scissorsImg {
+    height: 250px;
+    width: 275px;
+}
+
+#computer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* running score tally*/
+#hidden3 {
+    display: none;
+}
+#tally-words {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 5em;
+}
+.total {
+   flex-direction: row;
+   align-items: flex-end;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   list-style: none;
+}
+h3 {
+    display: inline;
+}
+li {
+display: inline-block;
+}

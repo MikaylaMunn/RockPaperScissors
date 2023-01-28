@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="rock-paper">
+        <!--IMAGES FOR USER TO GET-->
+        <img src="./Images/rocks.jpeg" alt="" id="rocks" class="image hidden">
+        <img src="./Images/scissors.jpeg" alt="" id="scissors" class="image hidden">
+        <img src="./Images/paper.jpeg" alt="" id="paper" class="image hidden">
+        <div id="computer">
+            <!--IMAGES FOR COMPUTER TO GET-->
+            <img src="./Images/rocks.jpeg" alt="" id="rocksImg" class="image hidden">
+            <img src="./Images/scissors.jpeg" alt="" id="scissorsImg" class="image hidden">
+            <img src="./Images/paper.jpeg" alt="" id="paperImg" class="image hidden">
+    
+        </div>
+    </div>
+    <div id="words">
+        <h2 id="titleCalled">Let's Play Rock, Paper, Scissors</h2>
+        <p>Please push the letters for the following:
+            <ul>
+                <strong>
+                    <li>r = rock </li>
+                    <li> p = paper </li>
+                    <li> s = scissors </li>
+                </strong>
+            </ul>
+        </p>
+    </div>
+    <div id="tally-words">
+    </div>
+    <div id='invalid-key'>
+    </div>
+    <!--notifying if user won, lost, or tied the computer-->
+    <nav class="total">
+        <ul>
+            <h3>Wins</h3>
+            <!--the running tally of score-->
+            <li id="wins"></li>
+            <h3>Losses</h3>
+            <li id="losses"></li>
+            <h3>Ties</h3>
+            <li id="ties"></li>
+    </nav>
+    </div>
+
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
